@@ -1,0 +1,23 @@
+{
+  "name": "mobilshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonolithDragon/MobileShop.git"
+  },
+  "author": "Joó Lajos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonolithDragon/MobileShop/issues"
+  },
+  "homepage": "https://github.com/MonolithDragon/MobileShop#readme",
+  "dependencies": {
+    "sass": "^1.39.2"
+  }
+}
