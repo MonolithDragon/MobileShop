@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
 /*          SASS TEMPLATE        */
 /* Global Classes */
-button, button:focus {
+button,
+button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -45,19 +46,19 @@ button, button:focus {
 }
 
 .color-second {
-  color: #00A5C4;
+  color: #00a5c4;
 }
 
 .color-second-bg {
-  background: #00A5C4;
+  background: #00a5c4;
 }
 
 .color-yellow {
-  color: #FFD289;
+  color: #ffd289;
 }
 
 .color-yellow-bg {
-  background: #FFD289;
+  background: #ffd289;
 }
 
 /* Top Sale Template */
@@ -92,6 +93,12 @@ button, button:focus {
 }
 #top-sale .owl-carousel .owl-nav button.owl-next span {
   margin-right: -4rem;
+}
+
+/* Special Price Section Temple */
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
